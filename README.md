@@ -1,6 +1,6 @@
 # AEGIS-Vault
-C2-AE-FAN 亞傑師私有金庫 AEGIS Vault 地端 FHE AI NAS 節點 for  高科技研發、生技、家族辦公室
-# FHE AI NAS (with USB)
+C2-AE-FAN 密文智庫（EncryMind）節點 for  高科技研發、生技、家族辦公室
+# 密文智庫 (with USB)
 
 > \*\*Repository ID\*\*: `C3-AE-FAN-F` (`aegis-fhe-ai-nas-app`)  
 > \*\*系統定位\*\*: 地端私有知識庫 AI NAS 節點與去回雙向密文推論回吐系統  
@@ -15,7 +15,7 @@ C2-AE-FAN 亞傑師私有金庫 AEGIS Vault 地端 FHE AI NAS 節點 for  高科
 
 ### 1.1 與前代架構的本質差別
 
-|比較維度|S0 單向輸入加密架構 (Legacy)|本系統：FHE AI NAS (with USB)|
+|比較維度|S0 單向輸入加密架構 (Legacy)|本系統：密文智庫 (with USB)|
 |-|-|-|
 |**加密覆蓋範疇**|**單向（HE-in only）**：主要保護 Prompt 輸入端，推論完成後以明文流式回傳。|**雙向（Bi-directional FHE Pipeline）**：去程密文、推論受控、回程密文。|
 |**金鑰同源性**|無法保證回答能以客戶端相同的對話金鑰（Session Key）封裝回傳。|**嚴格對稱封閉**：模型回答必須依客戶端提供的同一把會話金鑰密文封裝後始得回吐。|
