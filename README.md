@@ -1,3 +1,4 @@
+<!-- 產品／專案：密文智庫（EncryMind）（repo：AEGIS-Vault）｜法人／事業體：AEGIS（`aegis.expert`；正式法人名稱 [待確認]）｜日期：2026-11-13（Asia/Taipei）｜顯示修訂 2026-11-13 -->
 # AEGIS-Vault
 C2-AE-FAN 密文智庫（EncryMind）節點 for  高科技研發、生技、家族辦公室
 # 密文智庫 (with USB)
@@ -9,11 +10,11 @@ C2-AE-FAN 密文智庫（EncryMind）節點 for  高科技研發、生技、家�
 
 \---
 
-## 1\. 產品概述與前代差異 (Generational Paradigm Shift)
+## 1\. 產品概述與 S0 單向輸入加密架構（Legacy）的差異
 
 本專案旨在解決高價值知識產權（專利配方、製程參數、法律與醫療特種專家資產）在 AI 推論過程中的洩漏風險。
 
-### 1.1 與前代架構的本質差別
+### 1.1 與 S0 單向輸入加密架構（Legacy）的本質差別
 
 |比較維度|S0 單向輸入加密架構 (Legacy)|本系統：密文智庫 (with USB)|
 |-|-|-|
@@ -240,3 +241,8 @@ python scripts/test\_usb\_hotplug\_eviction.py --device-id SIM\_TOKEN\_01
 * `src/usb\_enclave/` (USB 金鑰生命週期): `@dev-aegis-fhe-ai-nas-app` `@security-admin`
 * `tests/acceptance/` (QA 驗收測試): `@qa-aegis-fhe-ai-nas-app`
 
+---
+
+## 變更註記（2026-11-13，Asia/Taipei）
+
+依使用者 2026-11-13 22:20 指示：將標題中的「前代」改為「S0 單向輸入加密架構（Legacy）」；一併移除「Generational Paradigm Shift」，以避免世代含義。此兩處「前代」均指 S0 架構，而非 HEShell（神盾殼）。本 README 先前未標草稿版本號，本次僅作標題用語修正，不新編版本號。仍待人工審核。
