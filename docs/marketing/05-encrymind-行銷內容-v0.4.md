@@ -6,7 +6,7 @@
 > 主 PMO 於 2026-11-14 核准審核通過。
 > 📝 **修訂說明（v0.3）**：依使用者 2026-11-13 指示（經產品線文件與預售內容 Agent 轉達）更名。對外產品名稱由「FHE AI NAS」改為「密文智庫 / EncryMind」。因更名發生於核准審核之後，本稿狀態改回【已完成審核（主 PMO，2026-11-14）】。
 > 依使用者 2026-11-13 21:28 指示，「密文智庫（EncryMind）」亦取代顯示名稱「亞傑師私有金庫 / AEGIS Vault」。repo、URL 與 CTA 代碼 AEGIS-Vault 維持不變。
-> 📝 **修訂說明（v0.2）**：依主 PMO 2026-11-13 決策修訂。對外產品名稱定為「FHE AI NAS」（名稱保留「FHE」）。不再以「亞傑師私有金庫 AEGIS Vault」作為對外名稱。CTA 一律導向 https://wonderland.center/CTA/AEGIS-Vault【事實錨點：主 PMO 2026-11-13 指示／CTA】。來源文件仍為草稿、尚未最終確認；經主 PMO 同意，本文案進入審核。通過人工審核之前，不得對外發布。
+> 📝 **修訂說明（v0.2）**：依主 PMO 2026-11-13 決策修訂。對外產品名稱定為「FHE AI NAS」（名稱保留「FHE」）。不再以「亞傑師私有金庫 AEGIS Vault」作為對外名稱。CTA 一律導向 https://wonderland.ngo/CTA/AEGIS-Vault【事實錨點：主 PMO 2026-11-13 指示／CTA】。來源文件仍為草稿、尚未最終確認；經主 PMO 同意，本文案進入審核。通過人工審核之前，不得對外發布。
 > 主 PMO 於 2026-11-13 核准審核通過。
 
 > ⚠️ **來源狀態提醒**：v0.4 所依據的預售草稿與 README 位於尚未合併的草稿 PR [AEGIS-Vault #8](https://github.com/aegis-expert-org/AEGIS-Vault/pull/8)（分支 `docs/pmo-answers-1113`，commit `faf1d4dbdbfe831121d34e093fec2a2bb8f90a57`，檔名 `docs/presale/05-fhe-ai-nas-產品說明與預售內容-草稿-v0.4.2.md`）。該 PR 仍為 draft，尚未合併至 `main`。`main` 上的預售文件仍可能是較早版本。**來源文件核准、本文案通過人工審核之前，不得對外發布。**
@@ -103,7 +103,7 @@
 價格、硬體規格與交期目前尚未公布【事實錨點：《P05》／§7 FAQ 最後一題】。
 
 ### 行動呼籲（CTA）
-「如果貴單位有研發配方、製程參數等需要地端 AI 問答的知識資產，請至 https://wonderland.center/CTA/AEGIS-Vault。」【事實錨點：主 PMO 2026-11-13 指示／CTA】
+「如果貴單位有研發配方、製程參數等需要地端 AI 問答的知識資產，請至 https://wonderland.ngo/CTA/AEGIS-Vault。」【事實錨點：主 PMO 2026-11-13 指示／CTA】
 
 ---
 
@@ -170,7 +170,7 @@
 | :--- | :--- | :--- |
 | 《P05》`docs/presale/05-fhe-ai-nas-產品說明與預售內容-草稿-v0.4.2.md`（草稿 v0.4.2；AEGIS-Vault #8，尚未合併） | `aegis-expert-org/AEGIS-Vault` 分支 `docs/pmo-answers-1113` @ `faf1d4dbdbfe831121d34e093fec2a2bb8f90a57` | 表頭；§2（S0 用語、與 HEShell 關係）；§6 回傳路徑；§9 |
 | 《R05》`README.md`（AEGIS-Vault #8，尚未合併） | 同上 | 標題由「前代」改為「S0 單向輸入加密架構（Legacy）」；變更註記 |
-| 主 PMO 2026-11-13 指示／CTA | — | CTA 導向 https://wonderland.center/CTA/AEGIS-Vault |
+| 主 PMO 2026-11-13 指示／CTA | — | CTA 導向 https://wonderland.ngo/CTA/AEGIS-Vault |
 | 使用者 2026-11-13 指示（經產品線文件與預售內容 Agent 轉達）／更名 | — | 對外名稱改為「密文智庫 / EncryMind」 |
 | 使用者 2026-11-13 22:20 答覆（經產品線文件與預售內容 Agent 轉達） | — | AEGIS-Vault README 標題「前代」改為 S0 Legacy 用語；此處「前代」指 S0 架構，而非 HEShell |
 
